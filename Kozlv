@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Click if brave ðŸ˜ˆ</title>
+
+<style>
+body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:black;
+    overflow:hidden;
+    font-family:Arial, sans-serif;
+}
+
+h1{
+    color:white;
+    font-size:12vw;
+    text-align:center;
+    animation:glitch 0.8s infinite;
+}
+
+@keyframes glitch{
+    0%{transform:translate(0);color:white;}
+    25%{transform:translate(-3px,3px);color:red;}
+    50%{transform:translate(3px,-3px);color:cyan;}
+    75%{transform:translate(-3px,-3px);color:yellow;}
+    100%{transform:translate(0);color:white;}
+}
+</style>
+</head>
+
+<body>
+<h1>Діана пробач Денчика 🥺</h1>
+</body>
+</html>
